@@ -14,15 +14,19 @@
 python -m venv venv
 source venv/bin/activate  # Для macOS/Linux
 venv\Scripts\activate     # Для Windows
+```bash
 
 ### 3. Установите зависимости
 
+```bash
 pip install -r requirements.txt
+```bash
 
 4. Запуск приложения
 
 ```bash
 streamlit run streamlit_app.py
+```bash
 
 ### 5. Откройте приложение
 После запуска приложения откройте веб-браузер и перейдите по адресу http://localhost:8501 для доступа к приложению.
