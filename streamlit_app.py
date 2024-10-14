@@ -95,4 +95,3 @@ if st.button("Получить вакансии"):
     # Отображаем график в Streamlit
     st.pyplot(plt)
 
-pip freeze > requirements.txt
